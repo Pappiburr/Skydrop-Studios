@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+
+
+html,body,#root {
+  height: 100%;
+  margin: 0 ;
+  padding: 0;
+  --color-main-bg: #eff4f0;
+  --color-main-text: #384640;
+  --color-main-accent: #244c60;
+  --color-main-accent-hover: #535bf2;
+  --color-main-accent-active: #4249f5;
+  --color-main-accent-disabled: #3138f8;
+  --color-main-accent-disabled-hover: #2025f7;
+  --color-main-accent-disabled-active: #0f12f6;
+  --color-main-danger: #ff0000;
+  --color-main-danger-hover: #e60000;
+  --color-main-danger-active: #cc0000;
+  --color-main-danger-disabled: #b30000;
+  --color-main-danger-disabled-hover: #990000;
+  --color-main-danger-disabled-active: #800000;
+  --color-main-success: #00ff00;
+  --color-main-success-hover: #00e600;
+  --color-main-success-active: #00cc00;
+  --color-main-success-disabled: #00b300;
+  --color-main-success-disabled-hover: #009900;
+  --color-main-success-disabled-active: #008000;
+  --color-main-warning: #ffff00;
+  --color-main-warning-hover: #e6e600;
+  --color-intro-button: #eff4f0;
+  --color-intro-button-hover: rgba(36,76,96, 0.8);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

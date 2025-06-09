@@ -11,6 +11,10 @@ export default {
       },
       colors: {
         'main-bg': '#F0E1CA',
+        'main-text': '#384640',
+        'secondary-bg': '#eff4f0',
+        'primary': '#384640',
+        'secondary': '#6B7280',
       },
     },
   },

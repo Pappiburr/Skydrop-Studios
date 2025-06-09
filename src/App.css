@@ -6,6 +6,7 @@ html,body,#root {
   height: 100%;
   margin: 0 ;
   padding: 0;
+  --font-family: 'Roboto Slab', serif;
   --color-main-bg: #eff4f0;
   --color-main-text: #384640;
   --color-main-accent: #244c60;

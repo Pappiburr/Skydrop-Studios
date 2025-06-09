@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Content: React.FC = () => {
+const HomeContent: React.FC = () => {
     return(
         <div>
             <h1> HERE IS WHERE THE CONTENT GOES </h1>
@@ -9,4 +9,4 @@ const Content: React.FC = () => {
     )
 }
 
-export default Content;
+export default HomeContent;

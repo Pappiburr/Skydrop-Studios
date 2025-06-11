@@ -9,6 +9,7 @@ html,body,#root {
   --font-family: 'Roboto Slab', serif;
   --color-main-bg: #eff4f0;
   --color-main-text: #384640;
+  --color-main-text-white: #eff4f0;
   --color-main-accent: #244c60;
   --color-main-accent-hover: #535bf2;
   --color-main-accent-active: #4249f5;

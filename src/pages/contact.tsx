@@ -1,13 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout-style/layout-style.component'
-import HomeContent from '../components/home-content/home-content'
 
-const HomePage: React.FC = () => {
+const Contact: React.FC = () => {
     return (
         <Layout>
-            <HomeContent />
+            <h1>This is where the contact page will go.</h1>
         </Layout>
     )
 }
 
-export default HomePage;
+export default Contact;

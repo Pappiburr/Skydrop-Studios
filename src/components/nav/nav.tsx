@@ -1,17 +1,19 @@
 import React from 'react'
-import logo from '../../assets/greenish-blue-background.png'
+import { useNavigate } from 'react-router-dom';
+
 
 const Nav: React.FC = () => {
+
+  const navigate = useNavigate();
   return(
-    <div className='Flex  flex-row justify-between items-center'>
+    <div className='Flex flex-row justify-between items-center'>
       
 
-      <div className=' grid grid-cols-5 gap-3 '>
-        <div><img src={logo} alt="logo" className='h-30 w-27' /></div>
-        <div>Home</div>
-        <div>About</div>
-        <div>Contact</div>
-        <div>Tip Jar</div>
+      <div className=' grid grid-cols-5 gap-1  outline-1 box-shadow-lg'>
+        <div className='text-4xl font-bold pt-9 ps-4  pe-5 text-shadow-black'>Skydrop Studios</div>
+        <div className='ps-10 text-shadow-black ' onClick={() => navigate('/home')}>Home</div>
+        <div className='ps-10 text-shadow-black ' onClick={() => navigate('/contact')}>Contact</div>
+        <div className='ps-10 text-shadow-black'>Tip Jar</div>
       </div>
     </div>
   )

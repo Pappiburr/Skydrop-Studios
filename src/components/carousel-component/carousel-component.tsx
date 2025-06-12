@@ -2,12 +2,13 @@ import React from 'react';
 import { Carousel } from 'antd';
 
 const contentStyle: React.CSSProperties = {
-  margin: 0,
+  margin: 'auto',
   height: '500px',
+  width: '900px',
   color: '#fff',
   lineHeight: '450px',
   textAlign: 'center',
-  background: '#364d79',
+  background: 'rgba(0,0,0,0.3)',
   fontSize: '40px'
 };
 
@@ -16,8 +17,8 @@ const CarouselComponent: React.FC = () => {
   
 
   return (
-    <div className=' m-10'>
-      <Carousel arrows infinite={false}>
+    <div className=' m-10 justify-center align-center'>
+      <Carousel autoplay={{ dotDuration: true}} autoplaySpeed={5000}>
       <div>
         <h3 style={contentStyle}>1</h3>
       </div>

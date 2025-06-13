@@ -8,7 +8,7 @@ const { Header, Content, Footer } = AntLayout;
 
 // Default styles
 const defaultHeaderStyle: React.CSSProperties = {
-  textAlign: 'left',
+  textAlign: 'center',
   color: 'var(--color-main-text)',
   height: 120,
   paddingInline: 0,
@@ -16,7 +16,7 @@ const defaultHeaderStyle: React.CSSProperties = {
   opacity: 0.75,
   boxShadow: '0 0 10px 0 rgba(0, 0, 0, .8)',
   fontFamily: 'var(--font-family)',
-  fontSize: '20px',
+  fontSize: '24px',
   lineHeight: '120px',
 };
 
@@ -31,7 +31,6 @@ const defaultContentStyle: React.CSSProperties = {
 };
 
 const defaultFooterStyle: React.CSSProperties = {
-  textAlign: 'center',
   color: '#fff',
   backgroundColor: 'var(--color-main-accent)',
 };

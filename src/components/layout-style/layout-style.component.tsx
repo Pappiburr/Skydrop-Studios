@@ -26,7 +26,7 @@ const defaultContentStyle: React.CSSProperties = {
   color: 'var(--color-main-text)',
   lineHeight: '120px',
   minHeight: 'calc(100vh - 240px)', // Subtract header and footer height
-  padding: '24px',
+ 
   backgroundColor: 'var(--color-main-bg)',
 };
 

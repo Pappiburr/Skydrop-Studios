@@ -5,7 +5,7 @@ const { Meta} = Card;
 
 const CardExamples: React.FC = () => {
     return(
-        <div className='flex flex-row gap-8 justify-center items-center pt-30 pb-15'>
+        <div className='flex flex-row gap-8 justify-center items-center pt-30 pb-15 px-15'>
             <Card
                 hoverable
                 style={{ width: 426}}

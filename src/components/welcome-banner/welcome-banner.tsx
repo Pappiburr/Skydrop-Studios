@@ -24,9 +24,10 @@ export default function CSSGeneration() {
                         justify-content: center;
                         width: 100%;
                         height: 20vh;
+                        padding-left: 10px;
+                        padding-right: 10px;
                        
                         
-                        margin: 10px;
                     }
 
                     .welcome-banner .h1 {

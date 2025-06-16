@@ -6,15 +6,13 @@ import CarouselComponent from '../carousel-component/carousel-component'
 const HomeContent: React.FC = () => {
     return(
         <div>
-            <div className=' bg-auto bg-top bg-[url(/images/ai-generated-8662021_1920.jpg)] bg-fixed '>
-                <CSSGeneration />
-           
-            <CardExamples />
+            <div className='bg-auto bg-top bg-[url(/images/ai-generated-8662021_1920.jpg)] bg-fixed'>
+               <div className='flex flex-row justify-center items-center pt-15 pb-200'>
+                    <CSSGeneration />
+                </div>
             </div>
-            <div className='flex flex-row justify-center items-center pt-15 pb-10'>
-                <h1 className='text-4xl font-bold'>
-                    We are dedicated to helping you achieve your dreams.
-                </h1>
+            <div className='flex flex-row justify-center items-center pt-5 pb-10 px-50 mx-20'>
+                    <CardExamples />
             </div>
             <div className='flex flex-row justify-center items-center text-center px-20'>
                 <p className='text-lg'> 

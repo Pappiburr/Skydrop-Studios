@@ -11,7 +11,7 @@ export default function CSSGeneration() {
     return (
         <div className=" welcome-banner flex justify-center items-center text-left pt-45 pb-30 ">
             <div className="flex flex-col justify-center items-center pt-25">
-                <h1 className=' h1 text-7xl font-bold px-3 pb-25 pt-10' style={{color: 'var(--color-main-text-white)'}} data-state={state}> Welcome to Skrydrop Studios</h1>
+                <h1 className=' h1 text-7xl font-bold px-3 pb-25 pt-10' style={{color: 'var(--color-main-text-white)'}} data-state={state}> Welcome to Skydrop Studios</h1>
             
             </div>
 

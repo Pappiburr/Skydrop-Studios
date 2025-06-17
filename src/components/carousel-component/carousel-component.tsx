@@ -20,16 +20,24 @@ const CarouselComponent: React.FC = () => {
     <div className=' m-10 justify-center align-center'>
       <Carousel autoplay={{ dotDuration: true}} autoplaySpeed={5000}>
       <div>
-        <h3 style={contentStyle}>1</h3>
+        <h3 style={contentStyle}>
+          <img src="/images/wildlife-9653797_1280.jpg" alt="Cowwwwwws" />
+        </h3>
       </div>
       <div>
-        <h3 style={contentStyle}>2</h3>
+        <h3 style={contentStyle}>
+          <img src="/images/boat-7618814_1280.jpg" alt="Boat" />
+        </h3>
       </div>
       <div>
-        <h3 style={contentStyle}>3</h3>
+        <h3 style={contentStyle}>
+          <img src="/images/mountain-8531778_1280.jpg" alt="Mountain" />
+        </h3>
       </div>
       <div>
-        <h3 style={contentStyle}>4</h3>
+        <h3 style={contentStyle}>
+        <img src="/images/italy-8266783_1280.jpg" alt="Mountain" />
+        </h3>
       </div>
     </Carousel>
     </div>
